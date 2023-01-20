@@ -24,7 +24,7 @@ public class MirrorBST {
         root.right = leftMirror;
         return root;
     }
-    // preorder
+    //
 
     public static void preorder(Node root) {
         if(root == null) {

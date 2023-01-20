@@ -42,6 +42,7 @@ public class SortedBalancedBST {
              5  11
              /\  /\
              3 6 10 12 
+        expected BST
          */
 
         Node root = createBST(arr, 0, arr.length-1);
