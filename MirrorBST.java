@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class MirrorBST {
     static class Node{
         int data;
@@ -9,6 +11,7 @@ public class MirrorBST {
             this.left = this.right = null;
         }
     }
+    // creatMirror
     public static Node creatMirror(Node root) {
         if(root == null) {
             return null;
@@ -21,6 +24,7 @@ public class MirrorBST {
         root.right = leftMirror;
         return root;
     }
+    // preorder
 
     public static void preorder(Node root) {
         if(root == null) {
